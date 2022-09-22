@@ -13,7 +13,7 @@
     --texto: #fff;
     --texto-sub: rgba(255, 255, 255, 0.5);
     --img-backgroud: url("./img/onda-dark.svg");
-    --filter:contrast(0%) brightness(6);
+    --filter: contrast(0%) brightness(6);
   }
 }
 
@@ -33,7 +33,7 @@ img {
 }
 
 .header img {
-  filter: var(--filter)
+  filter: var(--filter);
 }
 
 a {
